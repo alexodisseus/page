@@ -1,0 +1,13 @@
+*{
+  margin:0;
+  background:#000;
+}
+#tela{
+  background:#000;
+ border:solid 1px;
+ 
+}
+
+.suma{
+  display:none;
+}
