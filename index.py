@@ -1,7 +1,7 @@
 #!/usr/bin/env python
-print "Content-Type: text/html"
-print
-print """\
+print ("Content-Type: text/html")
+
+print ("""\
 <html>
  <head>
   <title>Python - Hello World</title>
@@ -10,4 +10,4 @@ print """\
   Hello World
  </body>
 </html>
-"""
+""")
