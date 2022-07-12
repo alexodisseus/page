@@ -15,6 +15,7 @@
     - paths:
       - ./model.py
       - ./donaclotilde.py
+      - ./database.db
 
     </py-env>
   </head>
@@ -24,14 +25,16 @@
 
 from model import Model
 
+print("atualizou")
+print(asd)
+
 asd = Model()
 
 data = asd.list_all()
 
 for x in data:
   print(str(x[2]))
-print("atualizou")
-print(asd)
+
     </py-script>
   
   </body>
