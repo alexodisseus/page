@@ -194,8 +194,6 @@ class Donaclotilde:
         sql=' '.join(kwargs)
         return sql
 
-
-
 class Model(Donaclotilde):
 	"""ATRIBUTOS DO Model HERDADOS DE Donaclotilde"""
 	""" /entrada_select /entrada_count /entrada_from_table /entrada_where /entrada_insert /query """
