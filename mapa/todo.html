@@ -20,11 +20,15 @@
 
   <body class="container">
     <py-script>
-      
+
 from model import Model
 
 asd = Model()
 
+data = asd.list_all()
+
+for x in data:
+  print(x)
 print("ASDasda")
 print(asd)
     </py-script>
